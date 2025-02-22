@@ -44,7 +44,7 @@
             {"name": "Azure Data Scientist Associate", "issuer": "Microsoft Azure", "year": "2023", "link": "https://learn.microsoft.com/en-us/users/guilhermeviegas-1359/credentials/ee569343bb2538dc?ref=https%3A%2F%2Fwww.linkedin.com%2F"}
           ],
           "awards": [
-            {"name": "Best Stoner 2024", "event": "Street Stoners Group", "year": "2024"}
+            {"name": "Best Lonely Stoner 2024", "event": "Streets tour 2024", "year": "2024"}
           ]
         },
         "publications": {
@@ -93,21 +93,21 @@
               "title": "GWR Discovery",
               "description": "This engine specializes in exploring the variances and similarities between different Geographically Weighted Models (GWR, MixedGWR, MultiscaleGWR, etc.), helping researchers analyze spatial regression techniques.",
               "example": "Difference between GWR and MixedGWR.",
-              "image": "assets/images/gwr.png",
+              "image": "assets/images/gwrSearchEngine.jpg",
               "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
             },
             "ms_thesis_discovery": {
               "title": "Ms Thesis Discovery",
               "description": "This search engine is designed to assist in discovering, organizing, and analyzing academic resources related to Guilherme's thesis on 'migration due to economic opportunities'.",
               "example": "The Sublime Object of Ideology book, by Slavoj Zizek.",
-              "image": "assets/images/thesis.png",
+              "image": "assets/images/migSearchEngine.png",
               "configId": "60361247-40a2-4392-a871-238bf92a3ac9"
             },
             "virtual_guigo": {
               "title": "Virtual Guigo",
               "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
               "example": "What would Guilherme say about that?",
-              "image": "assets/images/virtualguigo.png",
+              "image": "assets/images/virtualGuigo.png",
               "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
             }
           }

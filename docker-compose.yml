@@ -17,7 +17,7 @@ services:
       - FLUTTER_DB_PASSWORD=flutter_pass
     depends_on:
       - postgres
-    command: bash -c "flutter pub get && flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0"
+    command: bash -c "flutter pub get && flutter run -d web-server --web-port 80 --web-hostname 0.0.0.0"
 
 
 volumes:

@@ -23,7 +23,8 @@ RUN flutter doctor
 WORKDIR /app
 
 # Expose port for Flutter web
-EXPOSE 8080
+# EXPOSE 8080
+EXPOSE 80
 
 # Default command (overridden in docker-compose)
 CMD ["bash"]
