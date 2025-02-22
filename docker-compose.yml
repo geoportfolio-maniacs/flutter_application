@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  flutter:
+    build:
+      context: .
+      dockerfile: Dockerfile.flutter
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"  # For Flutter web server
+    environment:
+      - FLUTTER_DB_HOST=postgres
+      - FLUTTER_DB_PORT=5432
+      - FLUTTER_DB_NAME=flutter_db
+      - FLUTTER_DB_USER=flutter_user
+      - FLUTTER_DB_PASSWORD=flutter_pass
+    depends_on:
+      - postgres
+    command: bash -c "flutter pub get && flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0"
+
+
+volumes:
+  postgres_data:
