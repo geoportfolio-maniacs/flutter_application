@@ -8,7 +8,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "8080:8080"  # For Flutter web server
+      - "80:80"  # For Flutter web server
     environment:
       - FLUTTER_DB_HOST=postgres
       - FLUTTER_DB_PORT=5432

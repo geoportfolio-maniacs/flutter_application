@@ -94,21 +94,21 @@
               "description": "This engine specializes in exploring the variances and similarities between different Geographically Weighted Models (GWR, MixedGWR, MultiscaleGWR, etc.), helping researchers analyze spatial regression techniques.",
               "example": "Difference between GWR and MixedGWR.",
               "image": "assets/images/gwrSearchEngine.jpg",
-              "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
+              "configId": "17a54e06-27f5-49e7-9bea-6f1d16bf6355"
             },
             "ms_thesis_discovery": {
               "title": "Ms Thesis Discovery",
               "description": "This search engine is designed to assist in discovering, organizing, and analyzing academic resources related to Guilherme's thesis on 'migration due to economic opportunities'.",
               "example": "The Sublime Object of Ideology book, by Slavoj Zizek.",
               "image": "assets/images/migSearchEngine.png",
-              "configId": "60361247-40a2-4392-a871-238bf92a3ac9"
+              "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
             },
             "virtual_guigo": {
               "title": "Virtual Guigo",
               "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
               "example": "What would Guilherme say about that?",
               "image": "assets/images/virtualGuigo.png",
-              "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
+              "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
             }
           }
         },
