@@ -1,270 +1,278 @@
 {
-    "languages": {
-      "en": {
-        "app_title": "Guilherme’s Portfolio",
-        "nav": {
-          "home": "Home",
-          "cv": "Curriculum Vitae",
-          "publications": "Publications",
-          "projects": "Projects",
-          "blog": "Blog",
-          "geolayers": "GeoLayers",
-          "discovery_search": "Discovery Search",
-          "contact": "Contact"
-        },
-        "home": {
-          "welcome": "Welcome to Guilherme’s Portfolio",
-          "intro": "I’m Guilherme, a Data Scientist, Flutter Alchemist, and Data Explorer fusing technology and geography into extraordinary solutions.",
-          "button": "Let's do some Science!",
-          "quote": "Numbers whisper the truth; my quest is to uncover the hidden patterns shaping our world.",
-          "stats": [
-            {"label": "Projects Launched", "value": "60+"},
-            {"label": "Publications Authored", "value": "3"},
-            {"label": "Years Innovating", "value": "6"},
-            {"label": "Cities visited", "value": "150+"}
-          ],
-          "mission": "My mission is to transform raw data into meaningful narratives that drive understanding and impact.",
-          "passion": "What excites me is the ability to turn complex datasets into real-world insights that matter."
-        },
-        "cv": {
-          "title": "Curriculum Vitae",
-          "summary": "A visionary in geospatial tech and software development, blending creativity with analytical precision.",
-          "education": [
-            {"degree": "M.S. in Geospatial Technologies", "institution": "Münster University (WWU)", "year": "2023-2025", "details": "Thesis: Migration Dynamics in Brazil: A Spatial Econometric Analysis"},
-            {"degree": "B.S. in Economic Sciences", "institution": "Federal University of Santa Catarina (UFSC)", "year": "2018-2022", "details": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil. A Geographically Weighted Regression Approach"}
-          ],
-          "experience": [
-            {"role": "Cloud Data Engineer", "company": "CloudPilots", "duration": "2024 - Present", "description": "Development of data pipelines that ensure data quality and availability, consultancy for external clients, and AI experimentation."}
-          ],
-          "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "AI Agents", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "GIS", "Data Visualization", "Machine Learning", "SQL", "Remote Sensing", "JavaScript", "AWS"],
-          "cv_download": "Download CV",
-          "certifications": [
-            {"name": "Associate Data Practitioner Certification", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/73244529-d60a-463d-b86e-a3dd6086d612/"},
-            {"name": "Cloud Digital Leader Certification", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/cf4501f7-7726-47c3-8b38-d2795723894e/"},
-            {"name": "Azure Data Scientist Associate", "issuer": "Microsoft Azure", "year": "2023", "link": "https://learn.microsoft.com/en-us/users/guilhermeviegas-1359/credentials/ee569343bb2538dc?ref=https%3A%2F%2Fwww.linkedin.com%2F"}
-          ],
-          "awards": [
-            {"name": "Best Lonely Stoner 2024", "event": "Streets tour 2024", "year": "2024"}
-          ]
-        },
-        "publications": {
-          "title": "Publications",
-          "items": [
-            {"title": "Export complexity, industrial complexity and regional economic growth in Brazil", "subtitle": "", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
-            {"title": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil.", "subtitle": "A Geographically Weighted Regression Approach", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"}
-            ]
-        },
-        "projects": {
-          "title": "Projects",
-          "items": [
-            {"name": "Wilhelm, your Artificial Econometrics Professor", "description": "Digital book to teach Econometrics with the support of an AI Agent, Wilhelm, that helps the user take the most from the classes.", "tech": "GCP, R, Python, SQL", "image": "assets/images/wilhelmRobotProfessor.jpg"},
-            {"name": "BRvectors", "description": "An R package to get access to Brazilian polygon data at various spatial granularities, as well as some methods for Exploratory Spatial Data Analysis.", "tech": "R, Rstudio, Posit, Brazil, Polygon, IBGE, SHP, GeoParquet", "image": "assets/images/BRvectors.jpg"},
-            {"name": "AzureVM4Nomads", "description": "Terraform automation script for deployment of Azure Virtual Machines at scale.", "tech": "Terraform, Azure, Cloud Computing", "image": "assets/images/digitalNomad.jpg"},
-            {"name": "How much is this mansion worth?", "description": "Spatial data forecasting to estimate the price of a - supposedly - overpriced house bought by a politician", "tech": "Python, SQL", "image": "assets/images/floodpredict.png"},
-            {"name": "Motion Snitcher", "description": "Bash and Python code for a Raspberry Pi send messages when a motion is detected.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/skyview.png"},
-            {"name": "Equanimy Systems", "description": "An AI system to efficiently and equinamly allocate resources in a group.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/skyview.png"}
-          ]
-        },
-        "blog": {
-          "title": "Blog",
-          "posts": [
-            {"title": "Why Flutter for Geo Apps?", "snippet": "Unpacking Flutter’s geospatial potential.", "date": "Jan 2025", "link": "https://example.com/blog1"},
-            {"title": "Mapping Tomorrow with Data", "snippet": "Emerging trends in geospatial tech.", "date": "Feb 2025", "link": "https://example.com/blog2"},
-            {"title": "A Geo Dev’s Daily Grind", "snippet": "My tools and workflow secrets.", "date": "Dec 2024", "link": "https://example.com/blog3"},
-            {"title": "Open GIS Unleashed", "snippet": "Power of open-source mapping.", "date": "Nov 2024", "link": "https://example.com/blog4"},
-            {"title": "AI Meets Geography", "snippet": "How ML transforms GIS.", "date": "Oct 2024", "link": "https://example.com/blog5"},
-            {"title": "The Art of Data Viz", "snippet": "Crafting stunning geospatial visuals.", "date": "Sep 2024", "link": "https://example.com/blog6"}
-          ]
-        },
-        "geolayers": {
-          "title": "GeoLayers",
-          "description": "Layered geospatial masterpieces uncovering hidden patterns.",
-          "layers": [
-            {"name": "Main cities I have been", "detail": "Points on the map about the main cities I have been around the world.", "icon": "people"},
-            {"name": "Land Use Patterns", "detail": "Categorizing city landscapes.", "icon": "terrain"},
-            {"name": "Climate Zones", "detail": "Mapping temperature shifts.", "icon": "cloud"},
-            {"name": "Traffic Flow", "detail": "Real-time urban traffic analysis.", "icon": "traffic"}
-          ]
-        },
-        "discovery_search": {
-          "title": "Generative Discovery Search",
-          "subtabs": {
-            "gwr_discovery": {
-              "title": "GWR Discovery",
-              "description": "This engine specializes in exploring the variances and similarities between different Geographically Weighted Models (GWR, MixedGWR, MultiscaleGWR, etc.), helping researchers analyze spatial regression techniques.",
-              "example": "Difference between GWR and MixedGWR.",
-              "image": "assets/images/gwrSearchEngine.jpg",
-              "configId": "17a54e06-27f5-49e7-9bea-6f1d16bf6355"
-            },
-            "ms_thesis_discovery": {
-              "title": "Ms Thesis Discovery",
-              "description": "This search engine is designed to assist in discovering, organizing, and analyzing academic resources related to Guilherme's thesis on 'migration due to economic opportunities'.",
-              "example": "The Sublime Object of Ideology book, by Slavoj Zizek.",
-              "image": "assets/images/migSearchEngine.png",
-              "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
-            },
-            "virtual_guigo": {
-              "title": "Virtual Guigo",
-              "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
-              "example": "What would Guilherme say about that?",
-              "image": "assets/images/virtualGuigo.png",
-              "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
-            }
+  "languages": {
+    "en": {
+      "app_title": "Guilherme’s Portfolio",
+      "nav": {
+        "home": "Home",
+        "cv": "Curriculum Vitae",
+        "publications": "Publications",
+        "projects": "Projects",
+        "blog": "Blog",
+        "geolayers": "GeoLayers",
+        "discovery_search": "Discovery Search",
+        "contact": "Contact"
+      },
+      "home": {
+        "welcome": "Welcome to Guilherme’s Portfolio",
+        "intro": "I’m Guilherme, a Data Scientist, Flutter Alchemist, and Data Explorer fusing technology and geography into extraordinary solutions.",
+        "button": "Let's do some Science!",
+        "quote": "Numbers whisper the truth; my quest is to uncover the hidden patterns shaping our world.",
+        "stats": [
+          {"label": "Projects Launched", "value": "60+"},
+          {"label": "Publications Authored", "value": "3"},
+          {"label": "Years Innovating", "value": "6"},
+          {"label": "Cities visited", "value": "150+"}
+        ],
+        "mission": "My mission is to transform raw data into meaningful narratives that drive understanding and impact.",
+        "passion": "What excites me is the ability to turn complex datasets into real-world insights that matter."
+      },
+      "cv": {
+        "title": "Curriculum Vitae",
+        "summary": "A visionary in geospatial tech and software development, blending creativity with analytical precision.",
+        "education": [
+          {"degree": "M.S. in Geospatial Technologies", "institution": "Münster University (WWU)", "year": "2023-2025", "details": "Thesis: Migration Dynamics in Brazil: A Spatial Econometric Analysis"},
+          {"degree": "B.S. in Economic Sciences", "institution": "Federal University of Santa Catarina (UFSC)", "year": "2018-2022", "details": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil. A Geographically Weighted Regression Approach"}
+        ],
+        "experience": [
+          {"role": "Cloud Data Engineer", "company": "CloudPilots", "duration": "2024 - Present", "description": "Development of data pipelines that ensure data quality and availability, consultancy for external clients, and AI experimentation."},
+          {"role": "Census Agent for Admnistration and informatics", "company": "IBGE (Brazilian Institute of Geography and Statistics)", "duration": "2022 Aug - 2022 Oct", "description": "Field research for the 2022 Brazilian Census. Management of human resources and training of new Field Census Agents. Allocation of equipment and materials to the field agents."}
+        ],
+        "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "AI Agents", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "Data Visualization", "Machine Learning", "SQL", "Remote Sensing", "JavaScript", "PostgreSQL", "MongoDB"],
+        "cv_download": "Download CV",
+        "certifications": [
+          {"name": "Associate Data Practitioner Certification", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/73244529-d60a-463d-b86e-a3dd6086d612/"},
+          {"name": "Cloud Digital Leader Certification", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/cf4501f7-7726-47c3-8b38-d2795723894e/"},
+          {"name": "Azure Data Scientist Associate", "issuer": "Microsoft Azure", "year": "2023", "link": "https://learn.microsoft.com/en-us/users/guilhermeviegas-1359/credentials/ee569343bb2538dc?ref=https%3A%2F%2Fwww.linkedin.com%2F"}
+        ],
+        "awards": [
+          {"name": "Best Lonely Stoner 2024", "event": "Streets tour 2024", "year": "2024"}
+        ]
+      },
+      "publications": {
+        "title": "Publications",
+        "items": [
+          {"title": "Export complexity, industrial complexity and regional economic growth in Brazil", "subtitle": "", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
+          {"title": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil.", "subtitle": "A Geographically Weighted Regression Approach", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"},           
+          {"title": "Notes on the Census Microdata:", "subtitle": "Extracting, Transforming, and Loading with Bash, PySpark, and Cloud Storage", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Geographic Normalization:", "subtitle": "What is it and what are its implications?", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Money Neutrality in the Covid19 Era:", "subtitle": "An Animated Analysis with R", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},
+          {"title": "Socioeconomic Observatory of Santa Catarina", "subtitle": "OSESC", "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"},
+          {"title": " ", "subtitle": " ", "link": " "}
+        ]
+      },
+      "projects": {
+        "title": "Projects",
+        "items": [
+          {"name": "Wilhelm, your Artificial Econometrics Professor", "description": "Digital book to teach Econometrics with the support of an AI Agent, Wilhelm, that helps the user take the most from the classes.", "tech": "GCP, R, Python, SQL", "image": "assets/images/wilhelmRobotProfessor.jpg"},
+          {"name": "BRvectors", "description": "An R package to get access to Brazilian polygon data at various spatial granularities, as well as some methods for Exploratory Spatial Data Analysis.", "tech": "R, Rstudio, Posit, Brazil, Polygon, IBGE, SHP, GeoParquet", "image": "assets/images/BRvectors.jpg"},
+          {"name": "AzureVM4Nomads", "description": "Terraform automation script for deployment of Azure Virtual Machines at scale.", "tech": "Terraform, Azure, Cloud Computing", "image": "assets/images/digitalNomad.jpg"},
+          {"name": "How much is this mansion worth?", "description": "Spatial data forecasting to estimate the price of a - supposedly - overpriced house bought by a politician", "tech": "Python, SQL", "image": "assets/images/mansion.jpg"},
+          {"name": "Motion Snitcher", "description": "Bash and Python code for a Raspberry Pi send messages when a motion is detected.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/raspberryPI.jpg"},
+          {"name": "Equanimy Systems", "description": "An AI system to efficiently and equinamly allocate resources in a group.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
+        ]
+      },
+      "blog": {
+        "title": "Blog",
+        "posts": [
+          {"title": "Notes on the Census Microdata: Extracting, Transforming, and Loading with Bash, PySpark, and Cloud Storage", "snippet": "abc", "date": "Sep 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Geographic normalization: What is it and what are its implications?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Money Neutrality in the Covid19 Era: An Animated Analysis with R", "snippet": "abc", "date": "Jan 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
+          {"title": "Bolg1", "snippet": "abc", "date": "Dec 2020", "link": "https://example.com/blog3"},
+          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
+          {"title": "Bolg3", "snippet": "abc", "date": "Oct 2020", "link": "https://example.com/blog5"},
+          {"title": "Bolg4", "snippet": "abc", "date": "Sep 2020", "link": "https://example.com/blog6"}
+        ]
+      },
+      "geolayers": {
+        "title": "GeoLayers",
+        "description": "Layered geospatial masterpieces uncovering hidden patterns.",
+        "layers": [
+          {"name": "Main cities I have been", "detail": "Points on the map about the main cities I have been around the world.", "icon": "people"},
+          {"name": "Land Use Patterns", "detail": "Categorizing city landscapes.", "icon": "terrain"},
+          {"name": "Climate Zones", "detail": "Mapping temperature shifts.", "icon": "cloud"},
+          {"name": "Traffic Flow", "detail": "Real-time urban traffic analysis.", "icon": "traffic"},
+          {"name": "My Favourite Restaurants", "detail": "Points on the map about my favourite restaurants around the world.", "icon": "thumb_up"}
+        ]
+      },
+      "discovery_search": {
+        "title": "Generative Discovery Search",
+        "subtabs": {
+          "gwr_discovery": {
+            "title": "GWR Discovery",
+            "description": "This engine specializes in exploring the variances and similarities between different Geographically Weighted Models (GWR, MixedGWR, MultiscaleGWR, etc.), helping researchers analyze spatial regression techniques.",
+            "example": "Difference between GWR and MixedGWR.",
+            "image": "assets/images/gwrSearchEngine.jpg",
+            "configId": "17a54e06-27f5-49e7-9bea-6f1d16bf6355"
+          },
+          "ms_thesis_discovery": {
+            "title": "Ms Thesis Discovery",
+            "description": "This search engine is designed to assist in discovering, organizing, and analyzing academic resources related to Guilherme's thesis on 'migration due to economic opportunities'.",
+            "example": "The Sublime Object of Ideology book, by Slavoj Zizek.",
+            "image": "assets/images/migSearchEngine.png",
+            "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
+          },
+          "virtual_guigo": {
+            "title": "Virtual Guigo",
+            "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
+            "example": "What would Guilherme say about that?",
+            "image": "assets/images/virtualGuigo.png",
+            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
           }
-        },
-        "contact": {
-          "title": "Connect with Me",
-          "intro": "Got a project, question, or just want to chat? Reach out!",
-          "email_label": "Email",
-          "name_label": "Name",
-          "message_label": "Message",
-          "send_button": "Send Message",
-          "social": [
-            {"platform": "LinkedIn", "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"},
-            {"platform": "GitHub", "link": "https://github.com/Gui-go"},
-            {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
-            {"platform": "Portfolio", "link": "guigo.dev.br"}
-          ],
-          "location": "Based in: Somewhere, Earth",
-          "availability": "Open to freelance and collaboration opportunities."
         }
       },
-      "es": {
-        "app_title": "Odisea Digital de Guilherme",
-        "nav": {
-          "home": "Inicio",
-          "cv": "Currículum Vitae",
-          "publications": "Publicaciones",
-          "projects": "Proyectos",
-          "blog": "Blog",
-          "geolayers": "GeoCapas",
-          "discovery_search": "Búsqueda de Descubrimiento",
-          "contact": "Contacto"
-        },
-        "home": {
-          "welcome": "Bienvenido al Portafolio Cósmico de Guilherme",
-          "intro": "Soy Guilherme, un Mago Geoespacial, Alquimista de Flutter y Explorador de Datos que fusiona tecnología y geografía en soluciones extraordinarias.",
-          "button": "Embárcate en la Aventura",
-          "quote": "Forjando el futuro, un mapa y código a la vez.",
-          "stats": [
-            {"label": "Proyectos Lanzados", "value": "22+"},
-            {"label": "Publicaciones Escritas", "value": "9"},
-            {"label": "Años Innovando", "value": "6"},
-            {"label": "Regiones Mapeadas", "value": "15"}
-          ],
-          "mission": "Transformando datos crudos en conocimientos galácticos para un mundo mejor.",
-          "passion": "Impulsado por la curiosidad, alimentado por código e inspirado por la vastedad de la Tierra."
-        },
-        "cv": {
-          "title": "Currículum Vitae",
-          "summary": "Un visionario en tecnología geoespacial y desarrollo de software, combinando creatividad con precisión analítica.",
-          "education": [
-            {"degree": "M.S. en Ciencia Geoespacial", "institution": "Universidad de Algún Lugar", "year": "2023", "details": "Tesis: Dinámicas Climáticas Espacio-Temporales"},
-            {"degree": "B.S. en Geografía", "institution": "Otra Universidad", "year": "2020", "details": "Especialización: GIS y Sensores Remotos"},
-            {"degree": "Certificado en Ciencia de Datos", "institution": "Academia en Línea", "year": "2021", "details": "Enfoque: Aplicaciones de Aprendizaje Automático"}
-          ],
-          "experience": [
-            {"role": "Analista Geoespacial Senior", "company": "TechGeo Inc.", "duration": "2023 - Presente", "description": "Dirigí el desarrollo de plataformas de mapeo interactivo y modelos predictivos."},
-            {"role": "Asociado de Investigación", "company": "Uni Lab", "duration": "2021 - 2023", "description": "Pionero en algoritmos espaciales para investigación climática."},
-            {"role": "Especialista GIS", "company": "GeoStart", "duration": "2020 - 2021", "description": "Mejoré el mapeo rural con herramientas de código abierto."},
-            {"role": "Desarrollador Independiente", "company": "Autónomo", "duration": "2019 - 2020", "description": "Construí aplicaciones geoespaciales personalizadas para clientes."}
-          ],
-          "skills": ["Flutter", "Dart", "GIS", "Python", "R", "QGIS", "ArcGIS", "Visualización de Datos", "Aprendizaje Automático", "SQL", "Sensores Remotos", "JavaScript", "AWS"],
-          "cv_download": "Descargar CV",
-          "certifications": [
-            {"name": "Profesional Certificado en GIS", "issuer": "GISP", "year": "2024"},
-            {"name": "Desarrollador Avanzado de Flutter", "issuer": "Google", "year": "2023"},
-            {"name": "Arquitecto de Soluciones Certificado por AWS", "issuer": "Amazon", "year": "2022"}
-          ],
-          "awards": [
-            {"name": "Mejor Innovación Geoespacial", "event": "Premios GeoTech", "year": "2024"},
-            {"name": "Premio a la Excelencia en Investigación", "event": "Simposio Universitario", "year": "2022"}
-          ]
-        },
-        "publications": {
-          "title": "Publicaciones",
-          "items": [
-            {"title": "Análisis Espacial de la Expansión Urbana", "subtitle": "Revista de GIS, 2023", "link": "https://example.com/paper1"},
-            {"title": "Geo-Flutter: Mapeando el Futuro", "subtitle": "Conferencia Tecnológica, 2024", "link": "https://example.com/paper2"},
-            {"title": "Resiliencia Climática en Zonas Costeras", "subtitle": "Revisión de Ciencias Ambientales, 2022", "link": "https://example.com/paper3"},
-            {"title": "Tendencias Geoespaciales en 2025", "subtitle": "Revista GeoTech, 2025", "link": "https://example.com/paper4"},
-            {"title": "Aprendizaje Automático en GIS", "subtitle": "Simposio de Ciencia de Datos, 2024", "link": "https://example.com/paper5"},
-            {"title": "Mapeo de Islas de Calor Urbano", "subtitle": "Investigación Climática, 2023", "link": "https://example.com/paper6"}
-          ]
-        },
-        "projects": {
-          "title": "Proyectos",
-          "items": [
-            {"name": "GeoTracker", "description": "Seguimiento de ubicación en tiempo real con geovallas y análisis.", "tech": "Flutter, Firebase, Google Maps", "image": "assets/images/geotracker.png"},
-            {"name": "CityPulse", "description": "Tablero dinámico de datos urbanos con actualizaciones en tiempo real.", "tech": "Flutter Web, D3.js, PostgreSQL", "image": "assets/images/citypulse.png"},
-            {"name": "EcoMap", "description": "Monitoreo ambiental en vivo con integración de IoT.", "tech": "Flutter, IoT, AWS", "image": "assets/images/ecomap.png"},
-            {"name": "FloodPredict", "description": "Herramienta de pronóstico de riesgos de inundación impulsada por IA.", "tech": "Python, Flutter, TensorFlow", "image": "assets/images/floodpredict.png"},
-            {"name": "SkyView", "description": "Plataforma de análisis de imágenes satelitales.", "tech": "Flutter, Python, Google Earth Engine", "image": "assets/images/skyview.png"}
-          ]
-        },
-        "blog": {
-          "title": "Blog",
-          "posts": [
-            {"title": "¿Por qué Flutter para Apps Geo?", "snippet": "Desentrañando el potencial geoespacial de Flutter.", "date": "Ene 2025", "link": "https://example.com/blog1"},
-            {"title": "Mapeando Mañana con Datos", "snippet": "Tendencias emergentes en tecnología geoespacial.", "date": "Feb 2025", "link": "https://example.com/blog2"},
-            {"title": "El Día a Día de un Dev Geo", "snippet": "Secretos de mi flujo de trabajo y herramientas.", "date": "Dic 2024", "link": "https://example.com/blog3"},
-            {"title": "GIS Abierto Desatado", "snippet": "Poder del mapeo de código abierto.", "date": "Nov 2024", "link": "https://example.com/blog4"},
-            {"title": "IA y Geografía", "snippet": "Cómo el ML transforma GIS.", "date": "Oct 2024", "link": "https://example.com/blog5"},
-            {"title": "El Arte de la Visualización de Datos", "snippet": "Creando visuales geoespaciales impactantes.", "date": "Sep 2024", "link": "https://example.com/blog6"}
-          ]
-        },
-        "geolayers": {
-          "title": "GeoCapas",
-          "description": "Obras maestras geoespaciales en capas que descubren patrones ocultos.",
-          "layers": [
-            {"name": "Densidad Poblacional", "detail": "Mapa de calor de poblaciones urbanas.", "icon": "people"},
-            {"name": "Patrones de Uso de Suelo", "detail": "Categorización de paisajes urbanos.", "icon": "terrain"},
-            {"name": "Zonas Climáticas", "detail": "Mapeo de cambios de temperatura.", "icon": "cloud"},
-            {"name": "Flujo de Tráfico", "detail": "Análisis de tráfico urbano en tiempo real.", "icon": "traffic"}
-          ]
-        },
-        "discovery_search": {
-          "title": "Búsqueda de Descubrimiento",
-          "subtabs": {
-            "gwr_discovery": {
-              "title": "Descubrimiento GWR",
-              "description": "Regresión Ponderada Geográficamente para conocimientos espaciales.",
-              "example": "Analicé precios de viviendas en regiones.",
-              "image": "assets/images/gwr.png",
-              "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
-            },
-            "ms_thesis_discovery": {
-              "title": "Descubrimiento de Tesis de Maestría",
-              "description": "Patrones climáticos espacio-temporales.",
-              "example": "Modelo predictivo de lluvias.",
-              "image": "assets/images/thesis.png",
-              "configId": "60361247-40a2-4392-a871-238bf92a3ac9"
-            },
-            "virtual_guigo": {
-              "title": "Guigo Virtual",
-              "description": "Un avatar digital de mi viaje geoespacial.",
-              "example": "Tour interactivo de mapas 3D.",
-              "image": "assets/images/virtualguigo.png",
-              "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
-            }
+      "contact": {
+        "title": "Connect with Me",
+        "intro": "Got a project, question, or just want to chat? Reach out!",
+        "email_label": "Email",
+        "name_label": "Name",
+        "message_label": "Message",
+        "send_button": "Send Message",
+        "social": [
+          {"platform": "LinkedIn", "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"},
+          {"platform": "GitHub", "link": "https://github.com/Gui-go"},
+          {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
+          {"platform": "Portfolio", "link": "guigo.dev.br"}
+        ],
+        "location": "Based in: Somewhere, Earth",
+        "availability": "Open to freelance and collaboration opportunities."
+      }
+    },
+    "es": {
+      "app_title": "Odisea Digital de Guilherme",
+      "nav": {
+        "home": "Inicio",
+        "cv": "Currículum Vitae",
+        "publications": "Publicaciones",
+        "projects": "Proyectos",
+        "blog": "Blog",
+        "geolayers": "GeoCapas",
+        "discovery_search": "Búsqueda de Descubrimiento",
+        "contact": "Contacto"
+      },
+      "home": {
+        "welcome": "Bienvenido al Portafolio Cósmico de Guilherme",
+        "intro": "Soy Guilherme, un Mago Geoespacial, Alquimista de Flutter y Explorador de Datos que fusiona tecnología y geografía en soluciones extraordinarias.",
+        "button": "Embárcate en la Aventura",
+        "quote": "Forjando el futuro, un mapa y código a la vez.",
+        "stats": [
+          {"label": "Proyectos Lanzados", "value": "22+"},
+          {"label": "Publicaciones Escritas", "value": "9"},
+          {"label": "Años Innovando", "value": "6"},
+          {"label": "Regiones Mapeadas", "value": "15"}
+        ],
+        "mission": "Transformando datos crudos en conocimientos galácticos para un mundo mejor.",
+        "passion": "Impulsado por la curiosidad, alimentado por código e inspirado por la vastedad de la Tierra."
+      },
+      "cv": {
+        "title": "Currículum Vitae",
+        "summary": "Un visionario en tecnología geoespacial y desarrollo de software, combinando creatividad con precisión analítica.",
+        "education": [
+          {"degree": "M.S. en Ciencia Geoespacial", "institution": "Universidad de Algún Lugar", "year": "2023", "details": "Tesis: Dinámicas Climáticas Espacio-Temporales"},
+          {"degree": "B.S. en Geografía", "institution": "Otra Universidad", "year": "2020", "details": "Especialización: GIS y Sensores Remotos"},
+          {"degree": "Certificado en Ciencia de Datos", "institution": "Academia en Línea", "year": "2021", "details": "Enfoque: Aplicaciones de Aprendizaje Automático"}
+        ],
+        "experience": [
+          {"role": "Analista Geoespacial Senior", "company": "TechGeo Inc.", "duration": "2023 - Presente", "description": "Dirigí el desarrollo de plataformas de mapeo interactivo y modelos predictivos."},
+          {"role": "Asociado de Investigación", "company": "Uni Lab", "duration": "2021 - 2023", "description": "Pionero en algoritmos espaciales para investigación climática."},
+          {"role": "Especialista GIS", "company": "GeoStart", "duration": "2020 - 2021", "description": "Mejoré el mapeo rural con herramientas de código abierto."},
+          {"role": "Desarrollador Independiente", "company": "Autónomo", "duration": "2019 - 2020", "description": "Construí aplicaciones geoespaciales personalizadas para clientes."}
+        ],
+        "skills": ["Flutter", "Dart", "GIS", "Python", "R", "QGIS", "ArcGIS", "Visualización de Datos", "Aprendizaje Automático", "SQL", "Sensores Remotos", "JavaScript", "AWS"],
+        "cv_download": "Descargar CV",
+        "certifications": [
+          {"name": "Profesional Certificado en GIS", "issuer": "GISP", "year": "2024"},
+          {"name": "Desarrollador Avanzado de Flutter", "issuer": "Google", "year": "2023"},
+          {"name": "Arquitecto de Soluciones Certificado por AWS", "issuer": "Amazon", "year": "2022"}
+        ],
+        "awards": [
+          {"name": "Mejor Innovación Geoespacial", "event": "Premios GeoTech", "year": "2024"},
+          {"name": "Premio a la Excelencia en Investigación", "event": "Simposio Universitario", "year": "2022"}
+        ]
+      },
+      "publications": {
+        "title": "Publicaciones",
+        "items": [
+          {"title": "Análisis Espacial de la Expansión Urbana", "subtitle": "Revista de GIS, 2023", "link": "https://example.com/paper1"},
+          {"title": "Geo-Flutter: Mapeando el Futuro", "subtitle": "Conferencia Tecnológica, 2024", "link": "https://example.com/paper2"},
+          {"title": "Resiliencia Climática en Zonas Costeras", "subtitle": "Revisión de Ciencias Ambientales, 2022", "link": "https://example.com/paper3"},
+          {"title": "Tendencias Geoespaciales en 2025", "subtitle": "Revista GeoTech, 2025", "link": "https://example.com/paper4"},
+          {"title": "Aprendizaje Automático en GIS", "subtitle": "Simposio de Ciencia de Datos, 2024", "link": "https://example.com/paper5"},
+          {"title": "Mapeo de Islas de Calor Urbano", "subtitle": "Investigación Climática, 2023", "link": "https://example.com/paper6"}
+        ]
+      },
+      "projects": {
+        "title": "Proyectos",
+        "items": [
+          {"name": "GeoTracker", "description": "Seguimiento de ubicación en tiempo real con geovallas y análisis.", "tech": "Flutter, Firebase, Google Maps", "image": "assets/images/geotracker.png"},
+          {"name": "CityPulse", "description": "Tablero dinámico de datos urbanos con actualizaciones en tiempo real.", "tech": "Flutter Web, D3.js, PostgreSQL", "image": "assets/images/citypulse.png"},
+          {"name": "EcoMap", "description": "Monitoreo ambiental en vivo con integración de IoT.", "tech": "Flutter, IoT, AWS", "image": "assets/images/ecomap.png"},
+          {"name": "FloodPredict", "description": "Herramienta de pronóstico de riesgos de inundación impulsada por IA.", "tech": "Python, Flutter, TensorFlow", "image": "assets/images/floodpredict.png"},
+          {"name": "SkyView", "description": "Plataforma de análisis de imágenes satelitales.", "tech": "Flutter, Python, Google Earth Engine", "image": "assets/images/skyview.png"}
+        ]
+      },
+      "blog": {
+        "title": "Blog",
+        "posts": [
+          {"title": "¿Por qué Flutter para Apps Geo?", "snippet": "Desentrañando el potencial geoespacial de Flutter.", "date": "Ene 2025", "link": "https://example.com/blog1"},
+          {"title": "Mapeando Mañana con Datos", "snippet": "Tendencias emergentes en tecnología geoespacial.", "date": "Feb 2025", "link": "https://example.com/blog2"},
+          {"title": "El Día a Día de un Dev Geo", "snippet": "Secretos de mi flujo de trabajo y herramientas.", "date": "Dic 2024", "link": "https://example.com/blog3"},
+          {"title": "GIS Abierto Desatado", "snippet": "Poder del mapeo de código abierto.", "date": "Nov 2024", "link": "https://example.com/blog4"},
+          {"title": "IA y Geografía", "snippet": "Cómo el ML transforma GIS.", "date": "Oct 2024", "link": "https://example.com/blog5"},
+          {"title": "El Arte de la Visualización de Datos", "snippet": "Creando visuales geoespaciales impactantes.", "date": "Sep 2024", "link": "https://example.com/blog6"}
+        ]
+      },
+      "geolayers": {
+        "title": "GeoCapas",
+        "description": "Obras maestras geoespaciales en capas que descubren patrones ocultos.",
+        "layers": [
+          {"name": "Densidad Poblacional", "detail": "Mapa de calor de poblaciones urbanas.", "icon": "people"},
+          {"name": "Patrones de Uso de Suelo", "detail": "Categorización de paisajes urbanos.", "icon": "terrain"},
+          {"name": "Zonas Climáticas", "detail": "Mapeo de cambios de temperatura.", "icon": "cloud"},
+          {"name": "Flujo de Tráfico", "detail": "Análisis de tráfico urbano en tiempo real.", "icon": "traffic"}
+        ]
+      },
+      "discovery_search": {
+        "title": "Búsqueda de Descubrimiento",
+        "subtabs": {
+          "gwr_discovery": {
+            "title": "Descubrimiento GWR",
+            "description": "Regresión Ponderada Geográficamente para conocimientos espaciales.",
+            "example": "Analicé precios de viviendas en regiones.",
+            "image": "assets/images/gwr.png",
+            "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
+          },
+          "ms_thesis_discovery": {
+            "title": "Descubrimiento de Tesis de Maestría",
+            "description": "Patrones climáticos espacio-temporales.",
+            "example": "Modelo predictivo de lluvias.",
+            "image": "assets/images/thesis.png",
+            "configId": "60361247-40a2-4392-a871-238bf92a3ac9"
+          },
+          "virtual_guigo": {
+            "title": "Guigo Virtual",
+            "description": "Un avatar digital de mi viaje geoespacial.",
+            "example": "Tour interactivo de mapas 3D.",
+            "image": "assets/images/virtualguigo.png",
+            "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
           }
-        },
-        "contact": {
-          "title": "Conéctate Conmigo",
-          "intro": "¿Tienes un proyecto, pregunta o solo quieres charlar? ¡Contáctame!",
-          "email_label": "Correo Electrónico",
-          "name_label": "Nombre",
-          "message_label": "Mensaje",
-          "send_button": "Enviar Mensaje",
-          "social": [
-            {"platform": "LinkedIn", "link": "https://linkedin.com/in/yourprofile"},
-            {"platform": "GitHub", "link": "https://github.com/yourusername"},
-            {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
-            {"platform": "Portafolio", "link": "https://yourwebsite.com"}
-          ],
-          "location": "Ubicado en: Algún Lugar, Tierra",
-          "availability": "Abierto a oportunidades de freelance y colaboración."
         }
+      },
+      "contact": {
+        "title": "Conéctate Conmigo",
+        "intro": "¿Tienes un proyecto, pregunta o solo quieres charlar? ¡Contáctame!",
+        "email_label": "Correo Electrónico",
+        "name_label": "Nombre",
+        "message_label": "Mensaje",
+        "send_button": "Enviar Mensaje",
+        "social": [
+          {"platform": "LinkedIn", "link": "https://linkedin.com/in/yourprofile"},
+          {"platform": "GitHub", "link": "https://github.com/yourusername"},
+          {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
+          {"platform": "Portafolio", "link": "https://yourwebsite.com"}
+        ],
+        "location": "Ubicado en: Algún Lugar, Tierra",
+        "availability": "Abierto a oportunidades de freelance y colaboración."
       }
     }
   }
+}

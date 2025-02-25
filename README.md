@@ -35,3 +35,6 @@ ipconfig getifaddr en0
 192.168.178.204
 
 sudo snap install flutter --classic
+
+
+docker-compose up --build

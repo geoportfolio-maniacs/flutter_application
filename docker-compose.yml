@@ -16,9 +16,26 @@ services:
       - FLUTTER_DB_USER=flutter_user
       - FLUTTER_DB_PASSWORD=flutter_pass
     depends_on:
-      - postgres
+      - database
     command: bash -c "flutter pub get && flutter run -d web-server --web-port 80 --web-hostname 0.0.0.0"
+  
+  database:
+    container_name: database
+    build:
+      context: ./database
+      dockerfile: database.Dockerfile
+    restart: always
+    ports:
+      - "5432:5432"
+    networks:
+      - dockernetw
 
+networks:
+  dockernetw:
+    driver: bridge
 
 volumes:
   postgres_data:
+
+
+
